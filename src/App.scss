@@ -1,0 +1,10 @@
+@use './components/Styles/_variables.scss';
+
+
+* {
+    font-family: variables.$fonte;
+}
+
+body {
+    background-color: var(--body_background);
+}

@@ -1,0 +1,62 @@
+@use '../Styles/variables.scss';
+
+ .button-container {
+    border: 2px solid #cecece;
+    padding: 1rem 0rem !important;
+    border-radius: 15px 15px 0 0 ;
+    width: 10vw;
+    box-sizing: border-box;
+    margin-right: 3px;
+    
+   
+  }
+
+  
+  .active {
+    position: relative;
+    color: variables.$branco-100;
+    font-weight: 600;
+    background-color: variables.$verde;
+    transition: 0.5s;
+   
+  }
+  
+  /* .active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0.2rem;
+    width: 100%;
+    background-color: rgb(98, 2, 223);
+  } */
+  
+  .deactive {
+    color: gray;
+  }
+  
+  .deactive:hover {
+    background-color: rgba(167, 167, 167, 0.1);
+   
+
+  }
+  
+  .tab_content {
+    height: 50vh;
+    width: 80vw;
+    margin: auto;
+    border: 2px solid #cecece;
+    display: grid;
+    place-items: center;
+  
+  }
+
+  .tabs-container {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+     width: 80vw;
+     margin: 0 auto;
+  }

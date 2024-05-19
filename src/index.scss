@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --background-color: #e33b46 !important;
+    --text-color: #0b0c10 !important;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #0b0c10 !important;
+      --text-color: #e33b46 !important;
+    }
+  
+    html {
+      color-scheme: dark;
+    }
+  }
+
